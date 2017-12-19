@@ -1,0 +1,28 @@
+#include <iostream>
+#include <stdlib.h>
+#include <string>
+using namespace std;
+
+int main()
+{
+string inputstr, outputstr,str;
+cin>>inputstr;
+outputstr.clear();
+int k=0,counter;
+char s;
+while (i<inputstr.size()){
+    s=inputstr;
+    counter=1;
+    str.clear();
+    k++;
+    while(inputstr[i]==s){
+        counter++;
+        k++;
+
+    }
+    outputstr.push_back(s);
+    outputstr.push_back(counter+'0')
+}
+cout<<outputstr;
+return 0;
+}
