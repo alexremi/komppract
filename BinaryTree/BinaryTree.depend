@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1544432634 source:c:\users\Алексей\desktop\binarytree\main.cpp
+	<iostream>
+	"Node.h"
+	"BinarySearchTree.h"
+	"BinarySearchTree.cpp"
+
+1543228068 c:\users\Алексей\desktop\binarytree\node.h
+
+1544432666 c:\users\Алексей\desktop\binarytree\binarysearchtree.h
+	"Node.h"
+
+1544432666 c:\users\Алексей\desktop\binarytree\binarysearchtree.cpp
+	"BinarySearchTree.h"
+	<iostream>
+	<iomanip>
+
