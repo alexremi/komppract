@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1547194496 source:c:\users\Алексей\desktop\graph4\main.cpp
+	<iostream>
+	"Methods.cpp"
+
+1547194890 c:\users\Алексей\desktop\graph4\methods.cpp
+
