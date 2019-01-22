@@ -20,9 +20,12 @@ int main()
 
 cout<<"-------------------------"<<endl;
 
-   //A.DelArc(1,2);
-   A.DelArc(6,1);
-   //A.DelArc(2,3);
+   A.DelArc(1,2);
+   //A.DelArc(2,1);
+  // A.DelArc(6,1);
+   A.DelArc(2,3);
+   A.DelArc(4,55);
+   //A.DelArc(7,1);
 
 
    A.PrintGraph();
