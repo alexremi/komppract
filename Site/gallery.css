@@ -1,0 +1,126 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+}
+#gallery{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.image{
+    position: relative;
+    height: 250px;
+    width: 350px;
+}
+.image:before{
+    content: '';
+    height: 50px;
+    width: 50px;
+
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    z-index: -1;
+}
+.image:after {
+    content: '';
+    height: 50px;
+    width: 50px;
+
+    position: absolute;
+    top: 210px;
+    left: 310px;
+    z-index: -1;
+}
+.image:hover{
+    cursor: pointer;
+}
+.image img{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: all .4s;
+}
+.image:hover img{
+    height: 95%;
+    width: 95%;
+}
+#bigImage{
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0,0,0,.8);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none
+}
+#bigImage img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#close{
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    top: 30px;
+    right: 40px;
+
+}
+#close:hover{
+    cursor: pointer;
+}
+#line{
+    height: 40px;
+    width: 5px;
+    background-color: white;
+    border-radius: 10px;
+    transform: rotate(45deg);
+    margin-left: 20px;
+}
+#line:before{
+    content: '';
+    height: 40px;
+    width: 5px;
+    background-color: white;
+    border-radius: 10px;
+    transform: rotate(-90deg);
+    position: absolute;
+}
+#next{
+    height: 100px;
+    width: 30px;
+    background-color: white;
+    font-family: fantasy;
+    font-size: 17px;
+    text-align: center;
+    line-height: 100px;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+}
+#next:hover{
+    cursor: pointer;
+}
+#pre{
+    height: 100px;
+    width: 30px;
+    background-color: white;
+    font-family: fantasy;
+    font-size: 17px;
+    text-align: center;
+    line-height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+#pre:hover{
+    cursor: pointer;
+}
